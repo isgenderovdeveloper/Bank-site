@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Kapital Bank</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="middle">
+            <a href="http://kapitalbank.az" class="company text-decoration-none">Kapital Bank</a>
+            <nav>
+                <ul>
+                    <li><a href="Əsas" class="text-decoration-none">Əsas</a></li>
+                    <li><a href="Haqqımızda" class="text-decoration-none">Haqqımızda</a></li>
+                    <li><a href="Kampaniyalar" class="text-decoration-none">Kampaniyalar</a></li>
+                    <li><a href="Əlaqə" class="text-decoration-none">Əlaqə</a></li>
+                    <li><a href="index.html" class="text-decoration-none">Əməliyyatlar</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid mt-5 text-white red">
+            <div class="container">
+                <h1 class="display-3 text-center mb-3">Balans Əməliyyatları</h1>
+                <p id="userName" class='text-center h1 font-weight-bold font-italic'>Hörmətli <strong>Murad</strong> Kapital Banka Xoş Gəlmisiniz</p>
+                <p id="balanceContent" class=' text-white text-center h3 mt-3 d-none'>Sizin balans:100$</p>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="form-group d-flex flex-column">
+                    <label for="my-input" class="h3 text-dark font-italic mt-3 ">Məbləği daxil edin...</label>
+                    <div class="input-group mb-2">
+                        <input id="my-account" class="form-control" type="number">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">₼</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card p-3 shadow rounded">
+                    <div class="card-body" style="display: flex;flex-direction: column;justify-content: center;">
+                        <img src="img/indir.png" class="img-fluid" style="object-fit:cover;" alt="">
+                        <p class="card-title text-uppercase text-danger h4 font-italic font-weight-bold my-4 text-center">Ödəniş et </p>
+                        <p class="card-text my-4 h6 font-weight-bold font-italic text-danger text-center">Ekranda balansınızı görmək istəyirsinizsə sadəcə seçim edin</p>
+                        <button id="payBalance" class="btn btn-lg btn-outline-danger btn-block mt-4"> Ödəniş </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card p-3 shadow rounded">
+                    <div class=" card-body" style="display: flex;flex-direction: column;justify-content: center;">
+                        <img src="img/indir.png " class="img-fluid " style="object-fit:cover;" alt=" ">
+                        <p class="card-title text-uppercase text-danger h4 font-italic font-weight-bold my-4 text-center ">Balansı artır </p>
+                        <p class="card-text my-4 h6 font-weight-bold font-italic text-danger text-center ">Ekranda balansınızı görmək istəyirsinizsə sadəcə seçim edin</p>
+                        <button id="addBalance" class="btn btn-lg btn-outline-danger btn-block mt-4 "> Artır </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 ">
+                <div class="card p-3 shadow rounded ">
+                    <div class=" card-body " style="display: flex;flex-direction: column;justify-content: center;">
+                        <img src="img/indir.png " class="img-fluid " style="object-fit:cover; " alt=" ">
+                        <p class="card-title text-uppercase text-danger h4 font-italic font-weight-bold my-4 text-center ">Balansı göstər</p>
+                        <p class="card-text my-4 h6 font-weight-bold font-italic text-danger text-center ">Ekranda balansınızı görmək istəyirsinizsə sadəcə seçim edin</p>
+                        <button id="showBalance" class="btn btn-lg btn-outline-danger btn-block mt-4 "> Göstər </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+        <script src="js/index.js "></script>
+</body>
+
+
+</html>
